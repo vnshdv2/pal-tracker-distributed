@@ -1,0 +1,6 @@
+apply from: "$projectDir/../server.gradle"
+
+dependencies {
+    compile project(":components:timesheets")
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
+}
